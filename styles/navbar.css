@@ -1,0 +1,72 @@
+nav {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background-color: #000;
+    font-size: 16px;
+    color: #FEC000;
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.nav-item {
+    margin: 0 2rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 2rem 0 2rem;
+}
+
+.menu-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-mobile-items {
+    text-align: center;
+    margin: 0 0 2rem 0;
+    height: 100%;
+    padding: 5px;
+}
+
+.menu-mobile-items p {
+    margin: 0 0 1rem 0;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    /* Your CSS styles for screens <= 768px go here */
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+    }
+  }
+
+@media (min-width: 769px) {
+    .menu-mobile-items {
+        display: none;
+    }
+}
+  
