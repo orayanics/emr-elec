@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Medform Css -->
+    <link rel="stylesheet" href="../styles/medformStyle.css">
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <!-- GLOBAL CSS -->
+    <link rel="stylesheet" href="../styles/global.css">
+    <!-- NAVBAR CSS -->
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <!-- FOOTER CSS -->
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+    <nav id="top">
+        <div class="nav-container">
+            <div class="nav-item">
+                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokewidth="2"
+                    stroke="currentColor" class="nav-logo">
+                    <path strokelinecap="round" strokelinejoin="round"
+                        d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg></a>
+                <a href="index.html"><p>TITLE</p></a>
+            </div>
+            <div class="nav-item">
+                <div class="menu-desktop" id="menu-desktop">
+                    <p>HOME</p>
+                    <p>DASHBOARD</p>
+                    <p>PATIENTS</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="nav-logo" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M17 2H7C5.3 2 4 3.3 4 5v6h8.6l-2.3-2.3c-.4-.4-.4-1 0-1.4c.4-.4 1-.4 1.4 0l4 4c.4.4.4 1 0 1.4l-4 4c-.4.4-1 .4-1.4 0c-.4-.4-.4-1 0-1.4l2.3-2.3H4v6c0 1.7 1.3 3 3 3h10c1.7 0 3-1.3 3-3V5c0-1.7-1.3-3-3-3z" />
+                    </svg>
+                </div>
+
+                <div class="menu-mobile">
+                    <div onclick="toggleMenuMobile()">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="nav-logo" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M3 18v-2h18v2H3Zm0-5v-2h18v2H3Zm0-5V6h18v2H3Z" />
+                        </svg>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-mobile-items hidden" id="mobile-items">
+            <p>HOME</p>
+            <p>DASHBOARD</p>
+            <p>PATIENTS</p>
+            <p>LOG OUT</p>
+        </div>
+    </nav>
+
+    <!-- PUT CONTENT HERE -->
+    <div class="centered-form">
+        <link rel="stylesheet" href="../styles/medformStyle.css">
+        <form>
+            <center><h2>Electronic Medical Record
+                <br>
+                Patient No.
+                <br>
+                <br>
+                <br>
+            </h2>
+            </center>
+            <!-- Divider -->
+            <div class="rounded-square">
+                <div class="square-text">Patient Information</div>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="name">Full Name </label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Last Name, First Name Middle Name">
+                </div>
+            <div class="form-group">
+                <label class="form-label" for="name">Home Address</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="name">Gender</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Male or Female">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="name">Birthdate</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Month Day Year">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="name">Contact Number</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Phone/Telephone">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="name">Personal Email</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Email Address">
+            </div>
+            <!-- Divider -->
+            <div class="rounded-square1">
+                <div class="square-text1">Clinical Documentation</div>
+            </div>
+            <input class="form-input" type="text" id="name" name="name" placeholder="Enter Data Here">
+        </form>
+        <input type="submit" value="Post" class="submit-button">
+    </div>
+
+    <!-- End of content -->
+    <section style="width: 500px; height: 500px; display: block;"> EXAMPLE</section>
+    <section style="width: 500px; height: 500px; display: block;"> EXAMPLE</section>
+    <section style="width: 500px; height: 500px; display: block;"> EXAMPLE</section>
+    <section style="width: 500px; height: 500px; display: block;"> EXAMPLE</section>
+
+    <footer>
+            <div class="footer-item">
+                <a href="#top"><p>Back to Top</p></a>
+            </div>
+            <div class="footer-item">
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+            </div>
+    </footer>
+
+    <script src="script/navbar.js"></script>
+</body>
+
+</html>

@@ -1,12 +1,19 @@
 body {
     margin: 0;
-    background-color: white; /* Set background color to white */
+    background-color: white;
+    color: black; /* Set default font color to black */
+}
+
+h2{
+    color: black;
+    align-items: center;
+    justify-content: center;
 }
 
 .centered-form {
-    width: 90%; /* Make the form width responsive */
+    width: 90%;
     max-width: 1160px;
-    margin: 50px auto; /* Adjust the margin for better responsiveness */
+    margin: 50px auto;
     background-color: #d9d9d9;
     border-radius: 15px;
     padding: 20px;
@@ -14,7 +21,7 @@ body {
 }
 
 .rounded-square {
-    position: relative; /* Position relative for containing the rounded square */
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 95%;
@@ -23,28 +30,25 @@ body {
     border-radius: 8px;
 }
 .square-text {
-    
     margin-left: 2%;
     font-weight: bold;
-    color: #555;
+    color: black; /* Set text color to black */
 }
 
 .rounded-square1 {
-    position: relative; /* Position relative for containing the rounded square */
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 95%;
     height: 15%;
     background-color: #04A1E3;
     border-radius: 8px;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
 }
 .square-text1 {
-    
-    
     font-weight: bold;
-    color: #ffffff;
+    color: white;
 }
 
 .form-group {
@@ -56,6 +60,7 @@ body {
     margin-left: 5%;
     display: block;
     font-weight: bold;
+    color: black; /* Set label font color to black */
 }
 
 .form-input {
@@ -64,17 +69,18 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: black; /* Set input font color to black */
 }
 
-@media (max-width: 768px) { /* Responsive styles for smaller screens */
+@media (max-width: 768px) {
     .centered-form {
-        margin: 10px auto; /* Adjust the margin for smaller screens */
+        margin: 10px auto;
     }
 }
 
 .submit-button {
     background-color: #FEC000;
-    color: rgb(0, 0, 0);
+    color: black; /* Set button text color to black */
     border: none;
     margin-left: 48%;
     border-radius: 5px;
@@ -87,3 +93,4 @@ body {
 .submit-button:hover {
     background-color: hsl(62, 85%, 38%);
 }
+
