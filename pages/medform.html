@@ -61,6 +61,8 @@
         </div>
     </nav>
 
+    <img src="emr.png" height="100%" style="margin-left: 17%; margin-top: 2%;">
+
     <!-- PUT CONTENT HERE -->
     <div class="centered-form">
         <link rel="stylesheet" href="../styles/medformStyle.css">
@@ -69,6 +71,7 @@
                 <br>
                 Patient No.
                 <br>
+                <input class="form-input" type="text" id="name" name="name" style="width: 10%; height: 2%; margin-left: 0%;">
                 <br>
                 <br>
             </h2>
@@ -77,35 +80,207 @@
             <div class="rounded-square">
                 <div class="square-text">Patient Information</div>
             </div>
-            <div class="form-group">
-                <label class="form-label" for="name">Full Name </label>
-                <input class="form-input" type="text" id="name" name="name" placeholder="Last Name, First Name Middle Name">
+
+            <div class="form-flexbox">
+                <div class="form-group full-name">
+                    <label class="form-label" for="name">Full Name</label>
+                    <input class="form-input" type="text" id="name" name="name" placeholder="Last Name, First Name Middle Name">
                 </div>
-            <div class="form-group">
-                <label class="form-label" for="name">Home Address</label>
-                <input class="form-input" type="text" id="name" name="name" placeholder="Address">
+                <div class="form-group gender">
+                    <label class="form-label" for="gender">Gender</label>
+                    <input class="form-input" type="text" id="gender" name="gender" placeholder="M/F">
+                </div>
+                <div class="form-group bday">
+                    <label class="form-label" for="birthdate">Birthdate</label>
+                    <input class="form-input" type="text" id="birthdate" name="birthdate" placeholder="Month Day Year">
+                </div>
             </div>
-            <div class="form-group">
-                <label class="form-label" for="name">Gender</label>
-                <input class="form-input" type="text" id="name" name="name" placeholder="Male or Female">
+
+            <div class="form-flexbox">
+                <div class="form-group wide-address">
+                    <label class="form-label" for="address">Home Address</label>
+                    <input class="form-input wide-input" type="text" id="address" name="address" placeholder="Address">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="contact">Contact Number</label>
+                    <input class="form-input" type="text" id="contact" name="contact" placeholder="Phone/Telephone">
+                </div>        
             </div>
-            <div class="form-group">
-                <label class="form-label" for="name">Birthdate</label>
-                <input class="form-input" type="text" id="name" name="name" placeholder="Month Day Year">
+
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="occupation">Occupation</label>
+                    <input class="form-input" type="text" id="occupation" name="occupation" placeholder="Occupation">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="religion">Religion</label>
+                    <input class="form-input" type="text" id="religion" name="religion" placeholder="Religion">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="birthplace">Birthplace</label>
+                    <input class="form-input" type="text" id="birthplace" name="birthplace" placeholder="Birthplace">
+                </div>
             </div>
-            <div class="form-group">
-                <label class="form-label" for="name">Contact Number</label>
-                <input class="form-input" type="text" id="name" name="name" placeholder="Phone/Telephone">
+
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="emergency-contact">Emergency Contact</label>
+                    <input class="form-input" type="text" id="emergency-contact" name="emergency-contact" placeholder="Emergency Contact">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="emergency-contact-number">Emergency Contact Number</label>
+                    <input class="form-input" type="text" id="emergency-contact-number" name="emergency-contact-number" placeholder="Emergency Contact Number">
+                </div>
             </div>
-            <div class="form-group">
-                <label class="form-label" for="name">Personal Email</label>
-                <input class="form-input" type="text" id="name" name="name" placeholder="Email Address">
-            </div>
+            
+
             <!-- Divider -->
             <div class="rounded-square1">
                 <div class="square-text1">Clinical Documentation</div>
             </div>
-            <input class="form-input" type="text" id="name" name="name" placeholder="Enter Data Here">
+            <h1>Past Surgical History
+
+            </h1>
+
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="operation">Operation</label>
+                    <input class="form-input" type="text" id="operation" name="operation" placeholder="Operation">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="operation-date">Date</label>
+                    <input class="form-input" type="text" id="operation-date" name="operation-date" placeholder="Date">
+                </div>
+            </div>
+
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="operation">Operation</label>
+                    <input class="form-input" type="text" id="operation" name="operation" placeholder="Operation">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="operation-date">Date</label>
+                    <input class="form-input" type="text" id="operation-date" name="operation-date" placeholder="Date">
+                </div>
+            </div>
+
+            <h1>Obstetical History</h1>
+
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">OB Score</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">G1</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+            </div>
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">LMP</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">G2</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+            </div>
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">EDC</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">G3</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+            </div>
+            <div class="form-flexbox">
+                <div class="form-group">
+                    
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">G4</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+            </div>
+
+            <h1>Personal History</h1>
+            
+            <div class="form-group checkboxes-row">
+                <label class="form-label">Conditions</label>
+                <div class="checkboxes-container">
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="HPN">
+                        <div class="checkbox-box">HPN</div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="DM">
+                        <div class="checkbox-box">DM</div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="CANCER">
+                        <div class="checkbox-box">CANCER</div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="ASTHMA/ALLERGY">
+                        <div class="checkbox-box">ASTHMA/ALLERGY</div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="HD">
+                        <div class="checkbox-box">HD</div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">Others</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">Remarks</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+            </div>
+            
+            <h1>Personal and Social History</h1>
+            
+            <div class="form-group checkboxes-row">
+                <label class="form-label">Conditions</label>
+                <div class="checkboxes-container">
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="HPN">
+                        <div class="checkbox-box">HPN</div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="DM">
+                        <div class="checkbox-box">DM</div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="CANCER">
+                        <div class="checkbox-box">CANCER</div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="ASTHMA/ALLERGY">
+                        <div class="checkbox-box">ASTHMA/ALLERGY</div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="checkbox-input" type="checkbox" name="condition" value="HD">
+                        <div class="checkbox-box">HD</div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-flexbox">
+                <div class="form-group">
+                    <label class="form-label" for="ob-score">Remarks</label>
+                    <input class="form-input" type="text" id="ob-score" name="ob-score" placeholder="OB Score">
+                </div>
+            </div>
+
+
         </form>
         <input type="submit" value="Post" class="submit-button">
     </div>
