@@ -1,0 +1,146 @@
+.emr{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.welcomeback{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #FEC000;
+    font-family: Source Sans Pro;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.myrecordsquare{
+    position: absolute; 
+    top: 40%;
+    left: 30%;
+
+    background-color: #D9D9D9; 
+    border-radius: 10px;   
+    padding: 20px;      
+    height: 250px;
+    width: 300px;         
+    text-align: center;   
+}
+.myrecord{
+    position: absolute; 
+    top: 68%;
+    left: 35.5%;
+
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.myrecord a {
+    color: #000; 
+    text-decoration: underline;
+}
+.doctorsrecordsquare{
+    position: absolute; 
+    top: 40%;
+    left: 53%;
+
+    background-color: #D9D9D9; 
+    border-radius: 10px;   
+    padding: 20px;       
+    height: 250px;
+    width: 300px;         
+    text-align: center;   
+    
+}
+.doctorsrecord{
+    position: absolute; 
+    top: 68%;
+    left: 57.3%;
+
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.doctorsrecord a {
+    color: #000; 
+    text-decoration: underline;
+}
+.analyticssquare{
+    position: absolute; 
+    top: 75%;
+    left: 30%;
+
+    background-color: #D9D9D9; 
+    border-radius: 10px;   
+    padding: 20px;      
+    height: 250px;
+    width: 300px;          
+    text-align: center;    
+}
+.analytics{
+    position: absolute; 
+    top: 102%;
+    left: 35.7%;
+
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.analytics a{
+    color: #000; 
+    text-decoration: underline; 
+}
+.patientsearchsquare{
+    position: absolute; 
+    top: 75%;
+    left: 53%;
+
+    background-color: #D9D9D9;
+    border-radius: 10px;   
+    padding: 20px;        
+    height: 250px;
+    width: 300px;       
+    text-align: center;    
+    
+}
+.patientsearch{
+    position: absolute; 
+    top: 102%;
+    left: 57.5%;
+
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.patientsearch a {
+    color: #000; 
+    text-decoration: underline; 
+}
+.p{
+    padding-bottom: 1100px;
+}
