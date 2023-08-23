@@ -9,6 +9,7 @@ h1 {
     margin-left: 5%;
     padding: 20px 0; /* Add padding for spacing */
     font-weight: bold;
+    
 }
 
 h2 {
@@ -16,6 +17,9 @@ h2 {
     text-align: center;
     margin: 0; /* Remove default margin to center vertically */
     padding: 20px 0; /* Add padding for spacing */
+    font-family: 'Inria Serif', serif;
+    font-size:large;
+    font-weight: bold;
 }
 
 .centered-form {
@@ -49,7 +53,7 @@ h2 {
     transform: translateX(-50%);
     width: 95%;
     height: 15%;
-    background-color: #04A1E3;
+    background-color: #04a1e3;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
@@ -89,6 +93,9 @@ h2 {
     display: block;
     font-weight: bold;
     color: black; /* Set label font color to black */
+    font-family: 'Inria Serif', serif;
+    font-weight:500;
+    
 }
 
 .form-input {
@@ -99,6 +106,9 @@ h2 {
     border-radius: 5px;
     color: black; /* Set input font color to black */
     background-color: white; /* Set the background color to white */
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    font-size: 110%;
 }
 /* Add this CSS to your existing stylesheet */
 
@@ -116,6 +126,7 @@ h2 {
 
 .form-input::placeholder {
     color: #888; /* Set the placeholder color to grey */
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -136,6 +147,18 @@ h2 {
     transition: background-color 0.3s;
 }
 
+.edit-button {
+    background-color: #04a1e3;
+    color: rgb(255, 255, 255); /* Set button text color to black */
+    border: none;
+    margin-left: 48%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
 .submit-button:hover {
     background-color: hsl(62, 85%, 38%);
 }
@@ -145,7 +168,7 @@ h2 {
 .checkboxes-row {
     display: flex;
     align-items: center;
-    margin-top: 1%;
+    margin-top: 10% 50% 10% 50%;
 }
 
 .checkboxes-container {
