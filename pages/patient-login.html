@@ -3,20 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal</title>
+    <title>MediSynth: EMR</title>
 
-    <!-- Portal CSS-->
-    <link rel="stylesheet" href="../styles/portal.css">
     <!-- RESET CSS -->
-    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/reset.css">
     <!-- GLOBAL CSS -->
-    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/global.css">
     <!-- NAVBAR CSS -->
     <link rel="stylesheet" href="../styles/navbar.css">
     <!-- FOOTER CSS -->
     <link rel="stylesheet" href="../styles/footer.css">
+    <!-- REGISTER CSS -->
+    <link rel="stylesheet" href="../styles/register.css">
 </head>
 
 <body>
@@ -34,8 +33,10 @@
             </div>
             <div class="nav-item">
                 <div class="menu-desktop" id="menu-desktop">
-                    <a href=""><p>DASHBOARD</p></a>
-                    <a href="pages/search.html">
+                    <a href="portal.html">
+                        <p>DASHBOARD</p>
+                    </a>
+                    <a href="search.html">
                         <p>PATIENTS</p>
                     </a>
                     <svg xmlns="http://www.w3.org/2000/svg" class="nav-logo" viewBox="0 0 24 24">
@@ -58,51 +59,28 @@
         </div>
 
         <div class="menu-mobile-items hidden" id="mobile-items">
-            <a href="#"><p>DASHBOARD</p></a>
+            <a href="portal.html"><p>DASHBOARD</p></a>
             <a href="search.html"><p>PATIENTS</p></a>
             <p>LOG OUT</p>
         </div>
     </nav>
 
-
-    <!-- PUT CONTENT HERE -->
-    <div class="welcomeback"> Welcome Back!</div>
-
-    <main class="centered-form form-item">
-        <div>
-            <a href="medform.html"><p>Add Patient Medical Record</p></a>
-        </div>
-        <div>
-            <a href="docreg.html"><p>Doctor's Registration</p></a>
-        </div>
-        <div>
-            <a href=""><p>Analytics</p></a>
-        </div>
-        <div>
-            <a href="search.html"><p>Patient Search</p></a>
-        </div>
-    </main>
-
-
-    <!-- <div class="myrecordsquare"> </div>
-    <div class="myrecord">
-        <a href="myrecord.html"> My Record </a>
+    <div class="formcontainer">
+        <form>
+            <label class="labelid">EMR</label>
+            <h3 class="textid">Electronic Medical Records - Patient Login</h3>
+            <div class="container">
+                <label class="labell" for="user">Username</label><br>
+                <input class="box" type="text" id="user" name="user" value=""><br>
+                <label class="labell" for="password">Password</label><br>
+                <input class="box" type="text" id="password" name="password" value=""><br><br>
+                <div class="center">
+                    <input class="submit" type="submit" value="Login">
+                </div>
+            </div>
+        </form>
     </div>
-    <div class="doctorsrecordsquare"></div>
-    <div class="doctorsrecord">
-        <a href="doctorsrecord.html"> Doctor's Record </a>
-    </div>
-    <div class="analyticssquare"></div>
-    <div class="analytics">
-        <a href="analytics.html"> Analytics </a>
-    </div>
-    <div class="patientsearchsquare"></div>
-    <div class="patientsearch">
-        <a href="patientsearch.html"> Patient Search </a>
-    </div>
-    <div class="p"></div> -->
 
-    <!-- End of content -->
     <footer>
         <div class="footer-item">
             <a href="#top">
